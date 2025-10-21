@@ -64,5 +64,7 @@ windows-sys = "0.59"
 4. To stop capturing, unload or detach the DLL from the target process. Killing the process also unloads the hooks (obviously)
 
 ## 🎥 Demo
-![Demo preview](demo.gif)
+<p align="center">
+  <img src="demo.gif" width="720" alt="Demo preview">
+</p>
 
