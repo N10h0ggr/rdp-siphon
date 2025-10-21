@@ -66,7 +66,7 @@ windows-sys = "0.59"
 ## 🎥 Demo
 <p align="center">
   <video controls width="720">
-    <source src="https://raw.githubusercontent.com/N10h0ggr/rdp-siphon/main/docs/demo.mp4" type="video/mp4">
+    <source src="https://raw.githubusercontent.com/N10h0ggr/rdp-siphon/main/demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </p>
