@@ -64,10 +64,5 @@ windows-sys = "0.59"
 4. To stop capturing, unload or detach the DLL from the target process. Killing the process also unloads the hooks (obviously)
 
 ## 🎥 Demo
-<p align="center">
-  <video controls width="720">
-    <source src="https://raw.githubusercontent.com/N10h0ggr/rdp-siphon/main/demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
+[![Watch the demo](docs/thumbnail.jpg)](https://raw.githubusercontent.com/N10h0ggr/rdp-siphon/main/demo.mp4)
 
