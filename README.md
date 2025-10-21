@@ -19,7 +19,7 @@ When injected into an RDP-related process, it installs breakpoint hooks to monit
 This project depends on my **hardware breakpoint library**, which can be found here:
 [https://github.com/N10h0ggr/RustMalDev/tree/main/hooking/hwbp](https://github.com/N10h0ggr/RustMalDev/tree/main/hooking/hwbp)
 
-### 🧱 Compilation
+## 🧱 Compilation
 
 To build the DLL:
 
@@ -47,7 +47,7 @@ hwbp = { path = "../path/to/hwbp" }
 windows-sys = "0.59"
 ```
 
-### 🚀 Usage
+## 🚀 Usage
 
 1. Inject the compiled DLL (`rdp_siphon.dll`) into an RDP-related process (for instance, `mstsc.exe`) using any standard DLL injector. Process Hacker or the newer System Informer are valid for testing.
 
@@ -62,4 +62,12 @@ windows-sys = "0.59"
    This file will be created on the desktop of the active user.
 
 4. To stop capturing, unload or detach the DLL from the target process. Killing the process also unloads the hooks (obviously)
+
+## 🎥 Demo
+<p align="center">
+  <video controls width="720">
+    <source src="https://raw.githubusercontent.com/N10h0ggr/rdp-siphon/main/docs/demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
 
