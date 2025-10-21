@@ -65,6 +65,6 @@ windows-sys = "0.59"
 
 ## 🎥 Demo
 <p align="center">
-  <img src="demo.gif" width="720" alt="Demo preview">
+  <img src="demo.gif" width="900" alt="Demo preview">
 </p>
 
